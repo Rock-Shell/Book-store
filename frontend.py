@@ -5,7 +5,7 @@ database=Database('books.db')
 class frontend:
     def __init__(self,window):
         self.window=window
-        self.window.wm_title('BOOK STORE. SHUT UP HOJA BC')
+        self.window.wm_title('BOOK STORE. ')
         L=Label(self.window,text='Title')
         L.grid(row=0,column=0)
 
